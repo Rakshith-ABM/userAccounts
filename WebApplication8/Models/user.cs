@@ -30,3 +30,36 @@ namespace WebApplication8.Models
         }
     }
 }
+/*
+Database:
+    Table: user
+         Fields:
+            1. name
+            2. email
+            3. password
+            4. role
+
+user1:
+{
+    name:  
+    email: 
+    password: 
+    role:  
+}
+
+user2:
+{
+    name:
+    email:
+    password:
+    role:
+}
+
+//5 users
+object - user1
+object - user2
+......
+
+class  --> my template
+using this template i will be creating multiple objects of users
+*/

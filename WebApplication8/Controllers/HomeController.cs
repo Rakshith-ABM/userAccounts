@@ -11,9 +11,6 @@ namespace WebApplication8.Controllers
 
         private readonly ILogger<HomeController> _logger; 
 
-
-       // static user currentUser = new user();
-
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -35,7 +32,7 @@ namespace WebApplication8.Controllers
         public IActionResult Login()
         {
             return View("loginPage");
-        }
+        }  
 
         public IActionResult CheckCredentials(login inputDetails)
         {
